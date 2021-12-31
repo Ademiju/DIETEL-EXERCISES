@@ -1,4 +1,4 @@
-package ChapterThree;
+package chapterThree;
 
 public class AccountNewTest {
     public static void main(String[]args){

@@ -1,4 +1,4 @@
-package ChapterTwo;
+package chapterTwo;
 
 public class CheckerBoard {
 

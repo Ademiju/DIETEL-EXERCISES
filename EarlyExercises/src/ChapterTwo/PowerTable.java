@@ -1,4 +1,4 @@
-package ChapterTwo;
+package chapterTwo;
 
 public class PowerTable {
     /*2.31 (Table of Squares and Cubes) Using only the programming techniques you learned in this chapter,
@@ -6,7 +6,7 @@ public class PowerTable {
     as shown below.
 
     number  square  cube
-0       0       0
+        0       0       0
         1       1       1
         2       4       8
         3       9       27

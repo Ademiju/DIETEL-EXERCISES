@@ -1,4 +1,4 @@
-package ChapterThree;
+package chapterThree;
 
 public class AccountNew {
 
