@@ -30,7 +30,7 @@ public class GameOfCraps {
                 break;
             default:
                 status = GameStatus.CONTINUE;
-                System.out.printf("You rolled a sum of %d on your first roll, Your point is %d%nContinue to roll%n", sumOfDice, sumOfDice);
+                System.out.printf("You rolled a sum of %d on your first roll, Your point is %d%n", sumOfDice, sumOfDice);
         }
                 if(status == GameStatus.WON){
                     System.out.printf("Congratulations!!!, You rolled a sum of %d on your first roll%nYOU WON!!!",sumOfDice);
@@ -39,6 +39,7 @@ public class GameOfCraps {
                     System.out.printf("Oops!!!, You rolled a sum of %d on your first roll%nYOU LOST!!!",sumOfDice);
                 }
                 while(status == GameStatus.CONTINUE){
+                    System.out.println("Continue to roll");
                     dicePoint = diceRoll();
                     if (dicePoint == sumOfDice){
                         status = GameStatus.WON;
@@ -48,6 +49,7 @@ public class GameOfCraps {
                         System.out.printf("Oops!!!, You rolled a sum of %d%nYOU LOST!!!",dicePoint);
 
                     }
+
                 }
 
         }

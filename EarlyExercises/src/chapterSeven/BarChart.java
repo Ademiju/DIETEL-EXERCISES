@@ -1,4 +1,4 @@
-package chapterFive;
+package chapterSeven;
 
 public class BarChart {
     public static void main(String[] args) {

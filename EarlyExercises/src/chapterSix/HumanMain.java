@@ -1,4 +1,4 @@
-package ChapterSix;
+package chapterSix;
 
 public class HumanMain {
     public static void main(String[] args) {
