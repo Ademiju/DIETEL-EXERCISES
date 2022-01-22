@@ -1,4 +1,4 @@
-package ChapterSix;
+package chapterSix;
 
 public class Account {
     private String accountName;

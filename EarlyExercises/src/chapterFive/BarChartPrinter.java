@@ -23,17 +23,45 @@ public class BarChartPrinter {
 //
             }
         }
-//            System.out.println();
-//        System.out.println("Enter 5 numbers between 1 and 30: ");
-//
-//        int firstUserInput = input.nextInt();
-//        int secondUserInput = input.nextInt();
-//        int thirdUserInput = input.nextInt();
-//        int fourthUserInput = input.nextInt();
-//        int fifthUserInput = input.nextInt();
-//        int printValue = 1;
+            System.out.println();
+        System.out.println("Enter 5 numbers between 1 and 30: ");
 
+        int firstUserInput = input.nextInt();
+        int secondUserInput = input.nextInt();
+        int thirdUserInput = input.nextInt();
+        int fourthUserInput = input.nextInt();
+        int fifthUserInput = input.nextInt();
 
+        for(int printValue = 1; printValue <= firstUserInput; printValue++){
+            if(firstUserInput > 0 && firstUserInput <=30) {
+                System.out.print("* ");
+            }
+
+        }
+        System.out.println();
+        for(int printValue = 1; printValue <= secondUserInput; printValue++){
+            if(secondUserInput > 0 && secondUserInput <=30) {
+                System.out.print("* ");
+            }
+        }
+        System.out.println();
+        for(int printValue = 1; printValue <= thirdUserInput; printValue++){
+            if(thirdUserInput > 0 && thirdUserInput <=30) {
+                System.out.print("* ");
+            }
+        }
+        System.out.println();
+        for(int printValue = 1; printValue <= fourthUserInput; printValue++){
+            if(firstUserInput > 0 && firstUserInput <=30) {
+                System.out.print("* ");
+            }
+        }
+        System.out.println();
+        for(int printValue = 1; printValue <= fifthUserInput; printValue++){
+            if(firstUserInput > 0 && firstUserInput <=30) {
+                System.out.print("* ");
+            }
+        }
 
 
         }

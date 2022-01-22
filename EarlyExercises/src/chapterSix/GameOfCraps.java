@@ -9,7 +9,7 @@ public class GameOfCraps {
     private static final int CRAP2 = 3;
     private static final int CRAP3 = 12;
 
-    public enum GameStatus {WON,LOST,CONTINUE};
+    public enum GameStatus {WON,LOST,CONTINUE}
 
 
     public static SecureRandom diceRoll = new SecureRandom();

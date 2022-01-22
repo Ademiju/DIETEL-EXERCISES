@@ -57,7 +57,7 @@ public class AirConditionerTest {
 
     }
    /* @Test
-    public void sheyMyDecreaaseDetWhineMeNi(){
+    public void sheyMyDecreaseDeyWhineMeNi(){
         AirConditioner lg = new AirConditioner("lg AC");
         lg.getTemperature();
         lg.decreaseTemperature();
