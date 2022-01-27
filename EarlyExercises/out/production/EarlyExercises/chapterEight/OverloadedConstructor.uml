@@ -8,9 +8,7 @@
   <notes />
   <edges />
   <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="118.0" y="161.0" />
-  <SelectedNodes>
-    <node>chapterEight.OverloadedConstructor</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

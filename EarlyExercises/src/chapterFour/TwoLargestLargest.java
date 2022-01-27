@@ -11,7 +11,7 @@ public class TwoLargestLargest {
         System.out.println("Enter ten integers");
         int userInput;
         int counter = 0;
-        while(counter<4){
+        while(counter<10){
            userInput = input.nextInt();
            if(userInput > largestNumber){
                secondLargestNumber = largestNumber;
