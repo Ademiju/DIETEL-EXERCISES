@@ -18,6 +18,7 @@ class WifeTest {
         Husband Adam = new Husband(Eve);
         Adam.askMyWifeToCook("Jollof Rice and Chicken");
         Adam.askMyWifeToCook("Eba");
+        Eve.cook("eba");
 
     }
 

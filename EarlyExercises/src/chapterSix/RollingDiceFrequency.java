@@ -12,7 +12,7 @@ public class RollingDiceFrequency {
         int diceFace4 = 0;
         int diceFace5 = 0;
         int diceFace6 = 0;
-        for(int diceRolls = 0; diceRolls<60_000_000;diceRolls++){
+        for(int diceRolls =  0; diceRolls<60_000_000;diceRolls++){
             int diceFace = 1 + diceValue.nextInt(6);
             switch(diceFace){
                 case 1:

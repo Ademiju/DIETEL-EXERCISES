@@ -6,7 +6,7 @@ public class ScoreAnalyzer {
     public static void main(String[] args) {
 
             int TOTAL_NUMBER_OF_SCORES = 10;
-        int[] scores = new int[3];
+        int[] scores = new int[TOTAL_NUMBER_OF_SCORES];
 
         for (int count = 0; count < scores.length; count++) {
             Scanner input = new Scanner(System.in);
