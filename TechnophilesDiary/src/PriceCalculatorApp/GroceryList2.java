@@ -25,8 +25,6 @@ while (confirmation.equals("Yes")){
     System.out.println("Do you have more items: Enter Yes or No");
     confirmation=scanner.next();
 
-    items.ad;
-
 
 }
 

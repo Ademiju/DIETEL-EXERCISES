@@ -10,7 +10,7 @@ public class StringArray {
         ArrayList array = new ArrayList();
         array.add("i am there");
         array.add("who is there at the moment");
-        
+
 
     }
 }
