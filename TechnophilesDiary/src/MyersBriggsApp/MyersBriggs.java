@@ -122,7 +122,7 @@ public class MyersBriggs {
             }
             System.out.printf("S = %d :  N = %d%n",aCounter,5-aCounter);
 
-            if(aCounter > 3){
+            if(aCounter >= 3){
                 personalityTrait = "Sensor";
             }else {
                 personalityTrait = "Intuitive";
@@ -139,7 +139,7 @@ public class MyersBriggs {
             }
             System.out.printf("T = %d :  F = %d%n",aCounter,5-aCounter);
 
-            if(aCounter > 3){
+            if(aCounter >= 3){
                 personalityTrait = "Thinker";
             }else {
                 personalityTrait = "Feeler";
@@ -156,7 +156,7 @@ public class MyersBriggs {
             }
             System.out.printf("J = %d :  P = %d%n",aCounter,5-aCounter);
 
-            if(aCounter > 3){
+            if(aCounter >= 3){
                 personalityTrait = "Judger";
             }else {
                 personalityTrait = "Perceiver";

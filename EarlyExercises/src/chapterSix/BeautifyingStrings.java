@@ -2,10 +2,16 @@ package chapterSix;
 
 public class BeautifyingStrings {
 
-    public void capitalizeFirstLetter(String word) {
-
-
+    public static void capitalizeFirstLetter(String word) {
+        if(word.startsWith(word.toLowerCase())){
+            word.toUpperCase();
         }
+        System.out.println(word);
+        }
+
+    public static void main(String[] args) {
+        capitalizeFirstLetter("daniel");
+    }
     }
 
 

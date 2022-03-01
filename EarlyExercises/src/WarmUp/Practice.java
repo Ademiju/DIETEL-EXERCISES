@@ -23,6 +23,11 @@ public class Practice {
 //    }
 //}
 
+        int num = 40;
+        String nums = num+ "";
+        System.out.println(nums.length());
+        System.out.println(nums.charAt(1) == '0');
+
     }
 
 }
