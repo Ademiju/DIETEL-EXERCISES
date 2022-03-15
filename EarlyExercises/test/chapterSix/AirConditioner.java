@@ -7,10 +7,8 @@ public class AirConditioner {
 
 
     public AirConditioner( String  acName) {
-
         name = acName;
     }
-
 
     public boolean isOn() {
 
@@ -34,7 +32,7 @@ public class AirConditioner {
         return 0;
     }
 
-    public void increaseTemperture() {
+    public void increaseTemperature() {
         if (isOn) {
             if (temperature < 30)
                 temperature++;

@@ -35,7 +35,7 @@ public class AirConditionerTest {
         lg.turnOn();
         assertTrue(lg.isOn());
         int newTemp = lg.getTemperature();
-        lg.increaseTemperture();
+        lg.increaseTemperature();
         newTemp = lg.getTemperature();
         assertEquals(17, newTemp);
 
@@ -47,9 +47,9 @@ public class AirConditionerTest {
         AirConditioner lg = new AirConditioner("lg AC");
         lg.turnOn();
         assertTrue(lg.isOn());
-        lg.increaseTemperture();
-        lg.increaseTemperture();
-        lg.increaseTemperture();
+        lg.increaseTemperature();
+        lg.increaseTemperature();
+        lg.increaseTemperature();
         int newTemp = lg.getTemperature();
         assertEquals(19, newTemp);
         lg.decreaseTemperature();
@@ -73,11 +73,11 @@ public class AirConditionerTest {
         assertTrue(lg.isOn());
 
         for (int newTemp = 0; newTemp < 14; newTemp++) {
-            lg.increaseTemperture();
+            lg.increaseTemperature();
         }
         assertEquals(30, lg.getTemperature());
 
-        lg.increaseTemperture();
+        lg.increaseTemperature();
         assertEquals(30, lg.getTemperature());
 
     }
@@ -105,10 +105,10 @@ public class AirConditionerTest {
     public void acTemperatureCannotBeIncreasedWhenOffTest() {
         AirConditioner lg = new AirConditioner("lg AC");
         lg.turnOff();
-        lg.increaseTemperture();
+        lg.increaseTemperature();
         assertEquals(0, lg.getTemperature());
         lg.turnOn();
-        lg.increaseTemperture();
+        lg.increaseTemperature();
         assertEquals(17, lg.getTemperature());
 
     }
@@ -129,10 +129,10 @@ public class AirConditionerTest {
     public void acTemperatureRemainsTheSameWhenRestartedTest() {
         AirConditioner lg = new AirConditioner("lg AC");
         lg.turnOn();
-       lg.increaseTemperture();
-       lg.increaseTemperture();
-       lg.increaseTemperture();
-       lg.increaseTemperture();
+       lg.increaseTemperature();
+       lg.increaseTemperature();
+       lg.increaseTemperature();
+       lg.increaseTemperature();
         assertEquals(20, lg.getTemperature());
 
         lg.turnOff();
