@@ -1,20 +1,18 @@
 package africa.semicolon.phoneBook.data.repositories;
 
 import africa.semicolon.phoneBook.data.models.Contact;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
 
-public interface ContactRepository {
-    Contact save (Contact contact);
-    Contact findByFirstName(String firstName);
-    Contact findByLastName(String lastName);
+@Repository
+public interface ContactRepository extends MongoRepository<Contact, String> {
     Contact findByMobile(String mobile);
-    void delete(Contact contact);
-    void delete(String mobile);
+    Contact findByFirstName(String firstName);
     void deleteAll();
-    List<Contact> findAll();
 
-    int count();
+
+
 
 
 }

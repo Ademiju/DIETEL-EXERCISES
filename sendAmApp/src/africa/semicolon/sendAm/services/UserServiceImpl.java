@@ -28,6 +28,7 @@ public class UserServiceImpl implements UserService{
         response.setEmail(savedUser.getEmail());
         response.setFullName(savedUser.getFullName());
         return response;
+
     }
 
     private boolean emailExist(String emailAddress) {
