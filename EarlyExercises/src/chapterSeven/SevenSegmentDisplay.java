@@ -3,7 +3,7 @@ package chapterSeven;
 import java.util.Scanner;
 
 public class SevenSegmentDisplay {
-    static int arr[][] = new int[9][8];
+    static int arr[][] = new int[7][6];
 
     public static void setA() {
         for (int row = 0; row <= 0; row++) {

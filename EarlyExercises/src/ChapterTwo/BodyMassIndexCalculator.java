@@ -53,28 +53,6 @@ ANSWER:
 
         System.out.println("Your BMI is "+bmi);
 
-        if(bmi < 18.5){
-            System.out.println("You are UNDERWEIGHT");
-        }
-
-        if (bmi >= 18.5){
-            if (bmi <= 24.9){
-                System.out.println("You are NORMAL weight");
-            }
-        }
-
-
-        if (bmi >= 25){
-            if (bmi <= 29.9){
-                System.out.println("You are OVERWEIGHT");
-            }
-        }
-
-
-        if (bmi >= 30){
-
-            System.out.println("You are OBESE");
-        }
 
 
     }

@@ -23,7 +23,7 @@ public class PrimeNumber {
                 factorCount++;
             }
         }
-                if (factorCount < 2) {
+                if (factorCount == 2) {
                     System.out.println(userInput + " is a prime number");
                 }
                 else {
